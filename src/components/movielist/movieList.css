@@ -12,3 +12,28 @@ margin:  2.5rem;
     flex-wrap: wrap ;
     justify-content: center;
 }
+
+
+
+@media (max-width: 768px) {
+    .list__title {
+        font-size: 1.5em;
+    }
+
+    .list__cards {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 15px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .list__title {
+        font-size: 1.2em;
+    }
+
+    .list__cards {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 10px;
+    }
+}

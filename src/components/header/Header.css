@@ -31,3 +31,42 @@ a > span:hover {
 .user__avatar {
     font-size: 2rem;
 }
+
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .headerLeft {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .headerLeft span {
+        margin: 10px 0;
+        font-size: 1em;
+    }
+
+    .header__icon {
+        margin-bottom: 10px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .header {
+        padding: 8px;
+    }
+
+    .headerLeft span {
+        font-size: 0.9em;
+        margin: 8px 0;
+    }
+
+    .header__icon {
+        height: 40px;
+    }
+}

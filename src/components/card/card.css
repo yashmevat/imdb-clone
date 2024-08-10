@@ -60,3 +60,45 @@
     font-size: .75rem;
     margin-bottom: 0.25rem;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    .cards {
+        max-width: 200px;
+        margin: 10px;
+    }
+
+    .card__title {
+        font-size: 1em;
+    }
+
+    .card__runtime {
+        font-size: 0.8em;
+    }
+
+    .card__description {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .card__title {
+        font-size: 0.9em;
+    }
+
+    .card__runtime {
+        font-size: 0.8em;
+    }
+
+    .card__description {
+        font-size: 0.7em;
+    }
+}

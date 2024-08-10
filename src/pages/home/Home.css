@@ -51,3 +51,48 @@
     text-align: left;
     width: 50%;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    .poster {
+        padding: 15px;
+    }
+
+    .posterImage__title {
+        font-size: 1.2em;
+    }
+
+    .posterImage__runtime {
+        font-size: 1em;
+    }
+
+    .posterImage__description {
+        font-size: 0.9em;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .poster {
+        padding: 10px;
+    }
+
+    .posterImage__title {
+        font-size: 1em;
+    }
+
+    .posterImage__runtime {
+        font-size: 0.9em;
+    }
+
+    .posterImage__description {
+        font-size: 0.8em;
+    }
+
+    .posterImage__overlay {
+        padding: 8px;
+    }
+}
